@@ -1,4 +1,4 @@
-# CS4389 Password Manager
+# LocknKey
 
 ### Description
 An application that will store credentials under a master account.
@@ -17,5 +17,5 @@ Local web server should start up, and shortly after a web browser should automat
 If not, type `localhost:3000` in the URL to access the application.
 
 ### Comments
-The current database uses a trial version of AWS. Please bear in mind that
-it will eventually expire and the application will not work as intended.
+The database used a trial version of AWS. The application will no longer work as intended. <br>
+Please insert your personal MySQL database credentials to try the application.
