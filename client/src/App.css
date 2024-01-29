@@ -1,0 +1,123 @@
+body {
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color */
+  font-family: 'Helvetica Neue', sans-serif; /* Apple's preferred font */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.FormatPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 30px; /* Increased padding for more space */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style-type: none; /* Remove bullets */
+}
+
+.FormatPage li{
+  list-style-type:'';
+}
+
+.FormatPage button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007aff; /* Apple's blue color */
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  list-style-type: none; /* Remove bullets */
+}
+
+.FormatPage input {
+  width: 90%;
+  border: 1px solid #d1d1d1; /* Light border color */
+  border-radius: 5px;
+  background-color: #f8f8f8; /* Light gray input background */
+  padding: 18px; /* Increased padding for more space */
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.FormatPage input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.FormatPage input[type="long_text"] {
+  height: 120px;
+}
+
+.FormatPage input[type=submit] {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007aff; /* Apple's blue color */
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.FormatPage h1{
+  align-items: center;
+  text-align: center;
+}
+
+.FormatPage h2{
+  align-items: center;
+  text-align: center;
+}
+
+.FormatPage ul{
+  text-align: center;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin: auto;
+}
+
+.FormatPage a{
+  align-items: center;
+  text-align: center;
+}
+
+.Passwords {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.password {
+  width: 100%;
+  max-width: 400px;
+  height: 70px;
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
