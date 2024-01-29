@@ -17,5 +17,4 @@ Local web server should start up, and shortly after a web browser should automat
 If not, type `localhost:3000` in the URL to access the application.
 
 ### Comments
-The database used a trial version of AWS. The application will no longer work as intended. <br>
-Please insert your personal MySQL database credentials to try the application.
+The database used a trial version of AWS. The application will no longer work as intended. Please insert your personal MySQL database credentials to try the application.
